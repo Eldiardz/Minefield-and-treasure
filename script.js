@@ -12,7 +12,7 @@ missesBlock.innerHTML = misses
 score = 0
 scoreBlock.innerHTML = score
 		
-		for(let i=0; i<6; i = i + 1){
+		for(let i=0; i<6; i++){
 			treasure[i].onclick = function(){
 				if (!treasure[i].dataset.clicked) {
   				treasure[i].style.backgroundImage = "url(treasure.png)";
